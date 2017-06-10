@@ -4,7 +4,10 @@ import com.hazelcast.core.*;
 import com.hazelcast.config.*;
 
 import java.util.Map;
- 
+
+/*
+ * This is Hazelcast Cache class
+ */
 public class VasuApplication {
 	private final Map<String, Integer> appState_;
 	private HazelcastInstance instance_;
